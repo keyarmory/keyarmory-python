@@ -9,7 +9,9 @@ copy file into project
 
 ### Initialization
 ```python
-keyarmory = KeyArmory({
+import keyarmory
+
+keyarmory = keyarmory.KeyArmory({
     'api_key': 'your_api_key_here'
 })
 ```
